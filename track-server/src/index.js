@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri = "mongodb+srv://admin:admin@cluster0.qhfve.mongodb.net/trackme?retryWrites=true&w=majority";
+const mongoUri = "";
 
 if (!mongoUri) {
   throw new Error(
